@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  #root{
+    width: 100vw;
+    height: 100vh !important;
+    overflow: hidden;
+    position: relative !important;
+  
+  }
+  .hr{
+    height: 1px;
+    background-color: lightgray;
+    margin: 0.5rem 0px !important; 
+    
+  }
+  .dropbtn{
+    border: 1px solid lightgrey !important;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none !important;
+    position: absolute !important;
+    background-color: white !important;
+    min-width: 200px !important;
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2) !important;
+    z-index: 1 !important;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black !important;
+    padding: 5px 10px !important;
+    font-size: small !important;
+    text-decoration: none !important;
+    display: block !important;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: white !important;}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block !important;
+  
+  }
+  .color-picker>button>div{
+     width:18px !important;
+     height:18px !important;
+     margin-left:2px !important;
+     border:1px solid lightgray !important;
+     border-radius: 3px !important;
+    box-sizing: border-box !important;
+  }
+  .color-pick{
+    width: 18px; height: 18px !important;
+    margin: 2px !important;
+    pad: 2px !important;
+  }
+  .color-picker>button{
+    border: none !important;
+    background-color: white !important;
+  
+  }
+  
+  #centerNav{
+    border: none !important;
+    border-radius: 4px !important;
+    
+  }
+  #centerNav>div{
+    display: flex !important;
+    justify-content: space-around !important;
+    padding: 6px !important;
+    cursor: pointer !important;
+  }
+  
+  .centerNavDiv:hover{
+    
+    border: none !important;
+    border-radius: 3px !important;
+    background-color: #ececf3 !important;
+  }
+  
+  .vertical-line{
+    margin-top: 6px !important;
+    border-left: 2px solid #f2f2f2 !important;
+    height: 20px !important;
+  }
+  
+  
+  /* .active{
+  background-color: #ececf3;
+  border-radius: 3px;
+  } */
+  
+  
+  #bottom {
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    bottom: 20px;
+  }
+  #bottom > .options {
+    background-color: #f2f2f2;
+    padding: 3px 8px;
+    border-radius: 5px;
+    width:"18px";
+     height:"18px";
+  }
+  
+  /* @media screen and (max-width: 837px) {
+  .header-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-right,
+  .dropdown-options,
+  .draging-tool-info,
+  .sidebar,
+  .question-mark,
+  .command {
+    display: none;
+  } */
+  /* } */
